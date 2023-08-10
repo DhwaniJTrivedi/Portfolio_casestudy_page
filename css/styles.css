@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+body{
+  font-family: 'Big Shoulders Text', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: "Questrial";
+
+}
+html {
+  scroll-behavior: smooth;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Borel", sans-serif;
+  font-weight: 400;
+  color: purple;
+}
+
+
+.maincontent {
+  position: relative;
+  padding: 50px;
+  height: 100%;
+border: 1px solid gray;
+margin: 20px;
+display: flex;
+flex-direction: column;
+}
+.py-5 container{
+  width: auto;
+}
+
+
+header {
+  height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+  }
+  .progress {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    height: 10px; 
+    background-color: purple; 
+    transition: all linear 0.1s; 
+    min-width: 1%; 
+    z-index: 999;
+   }
+   .customNav{
+    position: fixed;
+    width: 100%;
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+  }
+    .navbar-nav{
+      margin-left: auto;
+      margin-right: 0 !important;
+    }
+    .navbar-brand img{
+      padding-right: 15px;
+      width: 65px;
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link {
+     
+      color: #333;
+      background-color: transparent;
+      transition: transform 0.3s ease;
+    }
+  
+    .navbar-light .navbar-nav .nav-item .nav-link:hover {
+      color: #b00000;
+      background-color: #F3C4C4;
+      transform: scale(1.1);
+    }
+    .main_section{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .center-image {
+      display: block;
+      margin: 0 auto;
+  }
+.center_paragraph{
+ text-align: center;
+}
+  
+  .footer {
+    text-align: center;
+    position: relative;
+  }
+  
+  hr {
+    margin-top: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .email {
+    margin-right: 20px;
+  }
+  
+  .linkedin-icon {
+    height: 24px;
+    width: auto;
+  }
+  @media only screen and (max-width: 767px) {
+    #heroGrid1 {
+      margin: 0 5%;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .project-container {
+      background-color: #f9f9f9;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link:hover {
+      /* Change the styles on hover */
+      color: #b00000;
+      background-color: #F3C4C4;
+    }
+  }
+  
+  /* Tablet Version (768px to 1023px) */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #heroGrid1 {
+      margin: 0 10%; /* Increase the margin for a wider layout */
+    }
+  
+    .project-container {
+      background-color: #f9f9f9;
+      width: 90%; /* Adjust the width to leave more space for content */
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .project-title {
+      font-size: 1.2rem; /* Decrease the font size to fit more content */
+    }
+  
+    .project-description {
+      font-size: 1rem; /* Adjust the font size of the description */
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link:hover {
+      /* Change the styles on hover */
+      color: #b00000;
+      background-color: #F3C4C4;
+    }
+  }
+  .bottom {
+    border-radius: 26px;
+    background: #eabbbb;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .cover {
+    background-color: #3743a4;
+    border-radius: 26px;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+  .signUp form {
+    margin: 35px auto;
+    background-color: #f2f2f2;
+    padding: 25px;
+    border-radius: 7px;
+  }
+  
